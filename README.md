@@ -9,12 +9,13 @@ These are the exam objectives you review and understand in order to pass the tes
 
 * [github.com: CNCF Exam Curriculum repository ](https://github.com/cncf/curriculum)
 * [linuxfoundation.org: ICA Home Page](https://training.linuxfoundation.org/certification/istio-certified-associate-ica/)
+* [Resources allowed during the examp](https://docs.linuxfoundation.org/tc-docs/certification/certification-resources-allowed#istio-certified-associate-ica)
 
 <details><summary>Istio Installation, Upgrade & Configuration 7%</summary>
 <p>
 
-- [Using the Istio CLI to install a basic cluster]()
-- [Customizing the Istio installation with the IstioOperator API]()
+- [Using the Istio CLI to install a basic cluster](https://istio.io/latest/docs/setup/install/istioctl/)
+- [Customizing the Istio installation with the IstioOperator API](https://istio.io/latest/docs/setup/install/operator/)
 - [Using overlays to manage Istio component settings]()
 
 </p>
@@ -23,8 +24,8 @@ These are the exam objectives you review and understand in order to pass the tes
 <details><summary>Traffic Management 40%</summary>
 <p>
 
-- [Controlling network traffic flows within a service mesh]()
-- [Configuring sidecar injection]()
+- [Controlling network traffic flows within a service mesh](https://istio.io/latest/docs/tasks/traffic-management/request-routing/)
+- [Configuring sidecar injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/)
 - [Using the Gateway resource to configure ingress and egress traffic]()
 - [Understanding how to use ServiceEntry resources for adding entries to internal service registry]()
 - [Define traffic policies using DestinationRule]()
@@ -62,3 +63,8 @@ These are the exam objectives you review and understand in order to pass the tes
 </p>
 </details>
 
+## Other resources
+- [academy.solo.io: ServiceMesh and CNI  free courses](https://academy.solo.io/learn)
+- [academy.tetrate.io: ServiceMesh free cources](https://academy.tetrate.io/collections)
+- [github.com: Mesh Week Videos](https://github.com/solo-io/mesh-week)
+- [github.com: Blog posts about ICA](https://github.com/yuyatinnefeld/istio?tab=readme-ov-file)
