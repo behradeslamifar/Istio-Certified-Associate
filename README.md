@@ -15,8 +15,10 @@ These are the exam objectives you review and understand in order to pass the tes
 <p>
 
 - [Using the Istio CLI to install a basic cluster](https://istio.io/latest/docs/setup/install/istioctl/)
-- [Customizing the Istio installation with the IstioOperator API](https://istio.io/latest/docs/setup/install/operator/)
-- [Using overlays to manage Istio component settings]()
+  - [youtube.com: Mesh Week (Session 1)](https://www.youtube.com/watch?v=w_8Gg_jsAbU)
+  - [istio.io: Installation Configuration Profiles](https://istio.io/latest/docs/setup/additional-setup/config-profiles/)
+- [Customizing the Istio installation with the IstioOperator API](https://istio.io/latest/docs/reference/config/istio.operator.v1alpha1/)
+- [Using overlays to manage Istio component settings](https://istio.io/latest/docs/setup/additional-setup/customize-installation/#identify-an-istio-component)
 
 </p>
 </details>
