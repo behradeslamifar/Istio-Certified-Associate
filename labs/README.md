@@ -41,7 +41,7 @@ kubectl cluster-info --context kind-istio
 - [Install istioctl](https://istio.io/latest/docs/setup/getting-started/#download)
 - Install Istio
 ```
-istioctl install
+istioctl install --set profile=demo
 ```
 
 <details><summary>Output</summary>
@@ -49,13 +49,12 @@ istioctl install
 
 
 ```
-WARNING: Istio 1.19.0 may be out of support (EOL) already: see https://istio.io/latest/docs/releases/supported-releases/ for supported releases
-This will install the Istio 1.19.3 "default" profile (with components: Istio core, Istiod, and Ingress gateways) into the cluster. Proceed? (y/N) y
-✔ Istio core installed
-✔ Istiod installed
-✔ Ingress gateways installed
-✔ Installation complete
-Made this installation the default for injection and validation.
+This will install the Istio 1.19.3 "demo" profile (with components: Istio core, Istiod, Ingress gateways, and Egress gateways) into the cluster. Proceed? (y/N) y
+✔ Istio core installed                                                                                                                        
+✔ Istiod installed                                                                                                                            
+✔ Egress gateways installed                                                                                                                   
+✔ Ingress gateways installed                                                                                                                  
+✔ Installation complete                                                                                                                       Made this installation the default for injection and validation.
 ```
 
 </p>
@@ -121,9 +120,14 @@ Checked 2 Istio Deployments
 </p>
 </details>
 
+- Uninstall Istio
+```
+istioctl uninstall --purge
+```
+
 # Dive in
-- [lab1: Istio installation, upgrade & configuration]()
-- [lab2: Traffic management]()
-- [lab3: Resiliency and fault injection]()
-- [lab4: Securing workloads]()
-- [lab5: Advanced scenarios]()
+- [lab1: Istio installation, upgrade & configuration](lab1/README.md)
+- [lab2: Traffic management](lab2/README.md)
+- [lab3: Resiliency and fault injection](lab3/README.md)
+- [lab4: Securing workloads](lab4/README.md)
+- [lab5: Advanced scenarios](lab5/README.md)
