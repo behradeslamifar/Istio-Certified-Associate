@@ -126,7 +126,7 @@ istioctl uninstall --purge
 ```
 
 ## Prerequisite
-- [Install gatewapi CRD's](https://istio.io/latest/docs/tasks/traffic-management/ingress/gateway-api/)
+- [Install gateway-api CRD's](https://istio.io/latest/docs/tasks/traffic-management/ingress/gateway-api/)
 
 ```
 kubectl kustomize "https://github.com/kubernetes-sigs/gateway-api/config/crd?ref=v1.0.0" | kubectl apply -f -
