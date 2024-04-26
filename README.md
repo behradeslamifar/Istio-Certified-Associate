@@ -27,11 +27,17 @@ These are the exam objectives you review and understand in order to pass the tes
 <p>
 
 - [Controlling network traffic flows within a service mesh](https://istio.io/latest/docs/tasks/traffic-management/request-routing/)
+  - [youtube.com: Mesh Week (Session 2)](https://www.youtube.com/watch?v=Q-l1z3ejc8Q)
+  - [solo.io: Istio Networking in Depth](https://www.solo.io/blog/istios-networking-in-depth/)
 - [Configuring sidecar injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/)
-- [Using the Gateway resource to configure ingress and egress traffic]()
-- [Understanding how to use ServiceEntry resources for adding entries to internal service registry]()
-- [Define traffic policies using DestinationRule]()
-- [Configure traffic mirroring capabilities]()
+- [Using the Gateway resource to configure ingress and egress traffic](https://istio.io/latest/docs/reference/config/networking/gateway/)
+  - [istio.io: Egress Gateway](https://istio.io/latest/docs/tasks/traffic-management/egress/egress-gateway/)
+  - [istio.io: Virtualservice](https://istio.io/latest/docs/reference/config/networking/virtual-service/)
+- [Understanding how to use ServiceEntry resources for adding entries to internal service registry](https://istio.io/latest/docs/reference/config/networking/service-entry/)
+  - [solo.io: Istio multi-cluster traffic](https://www.solo.io/blog/istio-multi-cluster-traffic-debugging/)
+- [Define traffic policies using DestinationRule](https://istio.io/latest/docs/reference/config/networking/destination-rule/)
+- [Configure traffic mirroring capabilities](https://istio.io/latest/docs/tasks/traffic-management/mirroring/)
+  - [envoyproxy.io: HTTP route components](https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/route/v3/route_components.proto#config-route-v3-routeaction-requestmirrorpolicy)
 
 </p>
 </details>
