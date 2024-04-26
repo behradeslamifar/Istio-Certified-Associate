@@ -125,6 +125,20 @@ Checked 2 Istio Deployments
 istioctl uninstall --purge
 ```
 
+## Prerequisite
+- [Install gatewapi CRD's](https://istio.io/latest/docs/tasks/traffic-management/ingress/gateway-api/)
+
+```
+kubectl kustomize "https://github.com/kubernetes-sigs/gateway-api/config/crd?ref=v1.0.0" | kubectl apply -f -
+```
+
+- Install Prometheus and Grafan
+
+```
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/prometheus.yaml
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml
+```
+
 # Dive in
 - [lab1: Istio installation, upgrade & configuration](lab1/README.md)
 - [lab2: Traffic management](lab2/README.md)
