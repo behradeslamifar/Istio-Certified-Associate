@@ -50,7 +50,8 @@ These are the exam objectives you review and understand in order to pass the tes
 - [Configuring circuit breakers (with or without outlier detection)](https://istio.io/latest/docs/tasks/traffic-management/circuit-breaking/)
 - [Using resilience features](https://istio.io/latest/docs/concepts/traffic-management/#network-resilience-and-testing)
 - [Creating fault injection](https://istio.io/latest/docs/tasks/traffic-management/fault-injection/)
-  - [Fault injection](https://istio.io/latest/docs/concepts/traffic-management/#fault-injection)
+  - [istio.io: Fault injection](https://istio.io/latest/docs/concepts/traffic-management/#fault-injection)
+  - [istio.io: Commands](https://istio.io/latest/docs/reference/commands/pilot-agent/)
 
 </p>
 </details>
