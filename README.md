@@ -3,6 +3,10 @@
 ## Prepare a Lab
 - [Istio Lab](labs/README.md)
 
+## Understanding Service Mesh and Istio
+- [istio.io: Isitio Architecture](https://istio.io/latest/docs/ops/deployment/architecture/)
+- [istio.io: Concepts Documents](https://istio.io/latest/docs/concepts/)
+
 ## Exam Objectives
 
 These are the exam objectives you review and understand in order to pass the test.
@@ -59,9 +63,10 @@ These are the exam objectives you review and understand in order to pass the tes
 <details><summary>Securing Workloads 20%</summary>
 <p>
 
-- [Understand Istio security features]()
-- [Set up Istio authorization for HTTP/TCP traffic in the mesh]()
-- [Configure mutual TLS at mesh, namespace, and workload levels]()
+- [Understand Istio security features](https://istio.io/latest/docs/concepts/security/)
+- [Set up Istio authorization for HTTP/TCP traffic in the mesh](https://istio.io/latest/docs/reference/config/security/authorization-policy/)
+- [Configure mutual TLS at mesh, namespace, and workload levels](https://istio.io/latest/docs/ops/configuration/traffic-management/tls-configuration/)
+  - [istio.io: Mutual TLS Migration (example)](https://istio.io/latest/docs/tasks/security/authentication/mtls-migration/)
 
 </p>
 </details>
