@@ -65,8 +65,9 @@ These are the exam objectives you review and understand in order to pass the tes
 
 - [Understand Istio security features](https://istio.io/latest/docs/concepts/security/)
 - [Set up Istio authorization for HTTP/TCP traffic in the mesh](https://istio.io/latest/docs/reference/config/security/authorization-policy/)
+  - [istio.io: HTTP Traffic (task for authorization policy)](https://istio.io/latest/docs/tasks/security/authorization/authz-http/)
 - [Configure mutual TLS at mesh, namespace, and workload levels](https://istio.io/latest/docs/ops/configuration/traffic-management/tls-configuration/)
-  - [istio.io: Mutual TLS Migration (example)](https://istio.io/latest/docs/tasks/security/authentication/mtls-migration/)
+  - [istio.io: Mutual TLS Migration (task)](https://istio.io/latest/docs/tasks/security/authentication/mtls-migration/)
 
 </p>
 </details>
