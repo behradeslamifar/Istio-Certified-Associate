@@ -37,6 +37,9 @@ kind create cluster --name istio --config=istio.yaml
 kubectl cluster-info --context kind-istio
 ```
 
+- [Install cloud-provider-kind](https://github.com/kubernetes-sigs/cloud-provider-kind?tab=readme-ov-file#install) and run it
+
+
 ### Quick Install Istio with istioctl
 - [Install istioctl](https://istio.io/latest/docs/setup/getting-started/#download)
 - Install Istio

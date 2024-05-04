@@ -2,6 +2,7 @@
 
 ## Prepare a Lab
 - [Istio Lab](labs/README.md)
+- [killercoda.com: Scenario for the ICA](https://killercoda.com/ica)
 
 ## Understanding Service Mesh and Istio
 - [istio.io: Isitio Architecture](https://istio.io/latest/docs/ops/deployment/architecture/)
@@ -76,8 +77,10 @@ These are the exam objectives you review and understand in order to pass the tes
 <details><summary>Advanced Scenarios 13%</summary>
 <p>
 
-- [Understand how to onboard non-Kubernetes workloads to the mesh]()
-- [Troubleshoot configuration issues]()
+- [Understand how to onboard non-Kubernetes workloads to the mesh](https://istio.io/latest/docs/setup/install/virtual-machine/)
+  - [istio.io: Virtual Machine Artichitecture](https://istio.io/latest/docs/ops/deployment/vm-architecture/)
+  - [istio.io: Bookinfo with a Virtual Machine (example)](https://istio.io/latest/docs/examples/virtual-machines/)
+- [Troubleshoot configuration issues](https://istio.io/latest/docs/ops/common-problems/)
 
 </p>
 </details>
@@ -87,6 +90,7 @@ These are the exam objectives you review and understand in order to pass the tes
 - [academy.tetrate.io: ServiceMesh free cources](https://academy.tetrate.io/collections)
 - [github.com: Mesh Week Videos](https://github.com/solo-io/mesh-week)
 - [github.com: Blog posts about ICA](https://github.com/yuyatinnefeld/istio?tab=readme-ov-file)
+- [docs.google.com: Mock Istio Examp - Mesh Week](https://docs.google.com/forms/d/e/1FAIpQLSfD4BLLQfdUwnIyiTBSGC_OzmSbiyrIlNp5Am61fTOhRbfiLw/viewform)
 
 ## Books
 - [Istio in Action](https://www.manning.com/books/istio-in-action)
