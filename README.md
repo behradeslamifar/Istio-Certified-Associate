@@ -2,6 +2,7 @@
 
 ## Prepare a Lab
 - [Istio Lab](labs/README.md)
+- [killercoda.com: Scenario for the ICA](https://killercoda.com/ica)
 
 ## Understanding Service Mesh and Istio
 - [istio.io: Isitio Architecture](https://istio.io/latest/docs/ops/deployment/architecture/)
@@ -64,6 +65,7 @@ These are the exam objectives you review and understand in order to pass the tes
 <p>
 
 - [Understand Istio security features](https://istio.io/latest/docs/concepts/security/)
+  - [youtube.com: Mesh Week (Session 2)](https://www.youtube.com/watch?v=uO-X1U1l23I)
 - [Set up Istio authorization for HTTP/TCP traffic in the mesh](https://istio.io/latest/docs/reference/config/security/authorization-policy/)
   - [istio.io: HTTP Traffic (task for authorization policy)](https://istio.io/latest/docs/tasks/security/authorization/authz-http/)
 - [Configure mutual TLS at mesh, namespace, and workload levels](https://istio.io/latest/docs/ops/configuration/traffic-management/tls-configuration/)
@@ -75,8 +77,10 @@ These are the exam objectives you review and understand in order to pass the tes
 <details><summary>Advanced Scenarios 13%</summary>
 <p>
 
-- [Understand how to onboard non-Kubernetes workloads to the mesh]()
-- [Troubleshoot configuration issues]()
+- [Understand how to onboard non-Kubernetes workloads to the mesh](https://istio.io/latest/docs/setup/install/virtual-machine/)
+  - [istio.io: Virtual Machine Artichitecture](https://istio.io/latest/docs/ops/deployment/vm-architecture/)
+  - [istio.io: Bookinfo with a Virtual Machine (example)](https://istio.io/latest/docs/examples/virtual-machines/)
+- [Troubleshoot configuration issues](https://istio.io/latest/docs/ops/common-problems/)
 
 </p>
 </details>
@@ -86,3 +90,9 @@ These are the exam objectives you review and understand in order to pass the tes
 - [academy.tetrate.io: ServiceMesh free cources](https://academy.tetrate.io/collections)
 - [github.com: Mesh Week Videos](https://github.com/solo-io/mesh-week)
 - [github.com: Blog posts about ICA](https://github.com/yuyatinnefeld/istio?tab=readme-ov-file)
+- [docs.google.com: Mock Istio Examp - Mesh Week](https://docs.google.com/forms/d/e/1FAIpQLSfD4BLLQfdUwnIyiTBSGC_OzmSbiyrIlNp5Am61fTOhRbfiLw/viewform)
+
+## Books
+- [Istio in Action](https://www.manning.com/books/istio-in-action)
+- [Istio Up and Running](https://www.oreilly.com/library/view/istio-up-and/9781492043775/)
+- [Bootstrapping Service Mesh Implementations with Istio](https://www.packtpub.com/product/bootstrapping-service-mesh-implementations-with-istio/9781803246819) (I dont recommend this book, not organize well)
