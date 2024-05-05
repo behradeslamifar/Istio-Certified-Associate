@@ -65,7 +65,7 @@ These are the exam objectives you review and understand in order to pass the tes
 <p>
 
 - [Understand Istio security features](https://istio.io/latest/docs/concepts/security/)
-  - [youtube.com: Mesh Week (Session 2)](https://www.youtube.com/watch?v=uO-X1U1l23I)
+  - [youtube.com: Mesh Week (Session 4)](https://www.youtube.com/watch?v=uO-X1U1l23I)
 - [Set up Istio authorization for HTTP/TCP traffic in the mesh](https://istio.io/latest/docs/reference/config/security/authorization-policy/)
   - [istio.io: HTTP Traffic (task for authorization policy)](https://istio.io/latest/docs/tasks/security/authorization/authz-http/)
 - [Configure mutual TLS at mesh, namespace, and workload levels](https://istio.io/latest/docs/ops/configuration/traffic-management/tls-configuration/)
@@ -80,6 +80,7 @@ These are the exam objectives you review and understand in order to pass the tes
 - [Understand how to onboard non-Kubernetes workloads to the mesh](https://istio.io/latest/docs/setup/install/virtual-machine/)
   - [istio.io: Virtual Machine Artichitecture](https://istio.io/latest/docs/ops/deployment/vm-architecture/)
   - [istio.io: Bookinfo with a Virtual Machine (example)](https://istio.io/latest/docs/examples/virtual-machines/)
+  - [youtube.com: Mesh Week (Session 5)](https://www.youtube.com/watch?v=Od7L-3tE9oA)
 - [Troubleshoot configuration issues](https://istio.io/latest/docs/ops/common-problems/)
 
 </p>
